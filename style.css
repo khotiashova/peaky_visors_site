@@ -1,0 +1,206 @@
+header{
+    margin: 0;
+    padding: 0;
+    height: 12vh;
+    /* background-color: aquamarine; */
+}
+
+/* название фильма, расположение и текст */
+.name {
+    padding: 0;
+    margin: 0;
+    margin-top: 7vh;
+    margin-left: 25vw;
+    color: rgb(240, 243, 238);
+
+    font-size: 5.3em;
+    line-height: 45px; 
+    margin-left: 5vw;
+    height: 10vh;
+    width: 50vw;
+    font-family: 'Audiowide', cursive;
+    color: #eee;
+  }
+
+/* хрень с менюшкой сверху */
+ul {
+    list-style-type: none;
+    margin: 50vw;
+    padding: 2.7vh;
+}
+
+li a {
+    display: block;
+    width: 15vw;
+}
+
+/* класс логотипа, фиг пойми зачем, но без него не работает */
+.left{
+    margin: 0;
+    padding: 0;
+    width: 36px;
+    height: 10px;
+    background-color: rgba(191, 191, 191, 0.747);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* класс логотипа */
+.logo{
+    /* position: absolute; */
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 60px;
+    margin-left: 2vw;
+    margin-top: -2vh;
+}
+
+/* -------------------------------------------------------- */
+
+body {
+    background: url('/Users/a_khot/web.project.10.22/venv/img/video.mp4')no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* видео - не трогать  */
+.bgvideo {
+    background-color: black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 95vw;
+    height: 100vh;
+    z-index: -9999;
+}
+
+/* текст - описание трейлера */
+.about{
+    margin: 0;
+    padding: 0;
+    height: 9vh;
+    width: 35vw;
+    line-height: 8vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-family: 'Audiowide', cursive;
+    color: rgb(224, 245, 245);
+}
+
+
+
+/* -------------------------------------------------------- */
+/* кнопка пуска */
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+    padding: 0 7vw;
+    margin: 30vh;
+    margin-left: 6vw;
+    margin-top: 35vh;
+	outline: none;
+	border: 1px solid rgb(86, 181, 205);
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(52, 161, 161);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: rgba(43, 85, 86, 0.85);;
+	border-color: #eee;
+	color: rgb(252, 185, 140);
+	cursor: not-allowed;
+}
+
+/* foooter */
+footer{
+    margin: 0;
+    padding: 0;
+    height: 32vh;
+    background-color: rgba(30, 36, 36, 0.907);
+
+}
+.foot{
+    padding-top: 3vh;
+    margin-left: 7vw;
+    font-family: 'Audiowide', cursive;
+    color: rgb(224, 245, 245);
+}
+
+.ab{
+    position: absolute;
+    margin-left: 5vw;
+    height: 19vh;
+    width: 40vw;
+    
+
+    font-size: 1.8em;
+    font-family: 'Audiowide', cursive;
+    color: rgb(224, 245, 245);
+}
+
+.ab_text{
+    margin-top: 3vh;
+    font-size: 0.5em;
+    font-family: 'Audiowide', cursive;
+    color: rgb(224, 245, 245);
+}
+
+.contact_us{
+    margin-left: 65vw;
+    margin-top: -0vh;
+    height: 15vh;
+    width: 30vw;
+
+    font-size: 1.8em;
+    font-family: 'Audiowide', cursive;
+    color: rgb(224, 245, 245);
+}
+
+.vk{
+    /* position: absolute; */
+    height: 9.6vh;
+    width: 6vw;
+    background-color: rgba(30, 36, 36, 0.03);
+
+}
+
+.log_vk :active{
+    /* background-color: #30337d20; */
+    color: #eee;
+    cursor: not-allowed;
+}
+
+.log_vk{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 9.8vh;
+    width: 6.6vw;
+    border-radius: 6px;
+    margin-top: 7vh;
+    margin-left: -10vw;
+} 
+
